@@ -5,4 +5,7 @@ int main() {
 	printf("%p\n", &a);
 	int *p = &a;
 	printf("%p\n", p);
+	printf("%p\n", &p);
+	*p = 21;
+	printf("%d", a);
 }
