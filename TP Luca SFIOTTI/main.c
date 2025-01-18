@@ -1,4 +1,6 @@
 #include <stdio.h>
 
-const int a = 7;
-a = 9999;
+int main() {
+	int a = 7;
+	printf("%p", &a);
+}
